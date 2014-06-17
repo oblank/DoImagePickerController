@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "oblank" => "dyh1919@gmail.com" }
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/oblank/DoImagePickerController.git", :commit => "9b94e323d18434c33fc472ce0121d3b1a07a5ca1" }
+  s.source       = { :git => "https://github.com/oblank/DoImagePickerController.git", :commit => "07cbb1dc6234289e37d928d060ac6bd74a129084" }
   s.source_files  = "ImagePicker/DoImagePicker/*.{h,m}"
   s.source_files  = "ImagePicker/DoImagePicker/*.{xib}"
   s.requires_arc = true
