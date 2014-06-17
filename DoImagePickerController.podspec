@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/oblank/DoImagePickerController.git", :commit => "7ffcdd17dc866649f0e32e0220b64e314eee5b7e" }
+  s.source       = { :git => "https://github.com/oblank/DoImagePickerController.git", :commit => "ce462438f3371f0b21e5661fa332961be98f6bfd" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
