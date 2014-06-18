@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/oblank/DoImagePickerController"
-  # s.screenshots  = "https://camo.githubusercontent.com/0731b75bd29331083ee670dedbe4fbe0ddb73428/68747470733a2f2f7261772e6769746875622e636f6d2f646f6e6f626f6e6f2f446f496d6167655069636b6572436f6e74726f6c6c65722f6d61737465722f70312e6a7067", "https://camo.githubusercontent.com/d37406d386b8212fa24afd2681d1eae2fc17ce0f/68747470733a2f2f7261772e6769746875622e636f6d2f646f6e6f626f6e6f2f446f496d6167655069636b6572436f6e74726f6c6c65722f6d61737465722f70322e6a7067"
   s.license      = "MIT"
   s.author             = { "oblank" => "dyh1919@gmail.com" }
   s.platform     = :ios, "6.0"
