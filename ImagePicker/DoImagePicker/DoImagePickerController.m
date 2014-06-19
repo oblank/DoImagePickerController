@@ -115,6 +115,7 @@
         if (nIndex < 0)
             nIndex = 0;
 #endif
+        NSLog(@"index:%i", nIndex);
         [_tvAlbumList selectRowAtIndexPath:[NSIndexPath indexPathForRow:nIndex inSection:0] animated:NO scrollPosition:UITableViewScrollPositionTop];
         [_btSelectAlbum setTitle:[ASSETHELPER getGroupInfo:nIndex][@"name"] forState:UIControlStateNormal];
         
@@ -461,7 +462,7 @@
         
         [_cvPhotoList reloadData];
         
-        _cvPhotoList.alpha = 0.3;
+        _cvPhotoList.alpha = 0.0;
         [UIView animateWithDuration:0.2 animations:^(void) {
             [UIView setAnimationDelay:0.1];
             _cvPhotoList.alpha = 1.0;

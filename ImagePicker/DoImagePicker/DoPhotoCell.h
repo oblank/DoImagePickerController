@@ -11,6 +11,7 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView    *ivPhoto;
 @property (weak, nonatomic) IBOutlet UIView         *vSelect;
+@property (strong, nonatomic) IBOutlet UILabel *selectedLabel;
 
 - (void)setSelectMode:(BOOL)bSelect;
 

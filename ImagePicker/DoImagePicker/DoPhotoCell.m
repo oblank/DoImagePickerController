@@ -21,9 +21,14 @@
 - (void)setSelectMode:(BOOL)bSelect
 {
     if (bSelect)
-        _ivPhoto.alpha = 0.2;
+    {
+        //_ivPhoto.alpha = 0.2;
+        _selectedLabel.text = @"√";
+    }
     else
+    {
         _ivPhoto.alpha = 1.0;
+    }
 }
 
 /*
