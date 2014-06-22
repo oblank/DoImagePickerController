@@ -17,20 +17,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="104" height="104"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     </imageView>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yEh-8G-ojD">
-                        <rect key="frame" x="79" y="10" width="14" height="21"/>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1bR-T5-2JQ">
+                        <rect key="frame" x="81" y="6" width="16" height="16"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" red="0.20000000000000001" green="0.80000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                        <state key="normal" image="checkbox_normal.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" image="checkbox_selected.png"/>
+                    </button>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
             <connections>
+                <outlet property="btnCheckBox" destination="1bR-T5-2JQ" id="DrY-1V-vFN"/>
                 <outlet property="ivPhoto" destination="Aw4-DJ-VAP" id="eAf-34-YAD"/>
-                <outlet property="selectedLabel" destination="yEh-8G-ojD" id="Wu6-Wg-Fbh"/>
             </connections>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="checkbox_normal.png" width="32" height="32"/>
+        <image name="checkbox_selected.png" width="32" height="32"/>
+    </resources>
 </document>

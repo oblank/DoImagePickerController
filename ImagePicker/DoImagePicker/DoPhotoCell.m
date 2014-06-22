@@ -23,11 +23,12 @@
     if (bSelect)
     {
         //_ivPhoto.alpha = 0.2;
-        _selectedLabel.text = @"√";
+        [_btnCheckBox setSelected:YES];
     }
     else
     {
         _ivPhoto.alpha = 1.0;
+        [_btnCheckBox setSelected:NO];
     }
 }
 

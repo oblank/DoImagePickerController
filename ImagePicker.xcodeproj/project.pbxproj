@@ -40,6 +40,8 @@
 		73E1111518915AEA0011CBD3 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E1111118915AEA0011CBD3 /* close.png */; };
 		73E1111618915AEA0011CBD3 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E1111218915AEA0011CBD3 /* down.png */; };
 		73E1111718915AEA0011CBD3 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E1111318915AEA0011CBD3 /* up.png */; };
+		C690E87C1956AEF700F2E897 /* checkbox_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = C690E87A1956AEF700F2E897 /* checkbox_normal.png */; };
+		C690E87D1956AEF700F2E897 /* checkbox_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C690E87B1956AEF700F2E897 /* checkbox_selected.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,8 @@
 		73E1111118915AEA0011CBD3 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		73E1111218915AEA0011CBD3 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
 		73E1111318915AEA0011CBD3 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		C690E87A1956AEF700F2E897 /* checkbox_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_normal.png; sourceTree = "<group>"; };
+		C690E87B1956AEF700F2E897 /* checkbox_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_selected.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +230,8 @@
 		73E1110718914C260011CBD3 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C690E87A1956AEF700F2E897 /* checkbox_normal.png */,
+				C690E87B1956AEF700F2E897 /* checkbox_selected.png */,
 				731D67C918A087A5002BAEF6 /* line@2x.png */,
 				731D67CC18A0D066002BAEF6 /* show.png */,
 				731D67CD18A0D066002BAEF6 /* show@2x.png */,
@@ -332,11 +338,13 @@
 				73238CF51890AAC60047DDA0 /* InfoPlist.strings in Resources */,
 				73E1111518915AEA0011CBD3 /* close.png in Resources */,
 				73238CFE1890AAC60047DDA0 /* Main.storyboard in Resources */,
+				C690E87D1956AEF700F2E897 /* checkbox_selected.png in Resources */,
 				73E1110E18914C260011CBD3 /* down@2x.png in Resources */,
 				731D67CA18A087A5002BAEF6 /* line@2x.png in Resources */,
 				731D67CE18A0D066002BAEF6 /* show.png in Resources */,
 				73238D4F1890DC4C0047DDA0 /* DoPhotoCell.xib in Resources */,
 				73E1110C18914C260011CBD3 /* check@2x.png in Resources */,
+				C690E87C1956AEF700F2E897 /* checkbox_normal.png in Resources */,
 				731D67CF18A0D066002BAEF6 /* show@2x.png in Resources */,
 				73E1110D18914C260011CBD3 /* close@2x.png in Resources */,
 			);
