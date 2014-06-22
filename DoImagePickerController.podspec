@@ -20,8 +20,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "6.0"
   s.source       = { :git => "https://github.com/oblank/DoImagePickerController.git", :commit => "f503dafebe1cdf026ea6f1c88e268b108121455e" }
   s.source_files  = "DoImagePicker", "ImagePicker/DoImagePicker/*.{h,m}"
-  s.resources = 'Resources/Images/*.png'
-  s.resources = "ImagePicker/DoImagePicker/*.{xib}" 
+  s.resources = "ImagePicker/DoImagePicker/*.{xib}", 'Resources/Images/*.png' 
   s.requires_arc = true
   
 end
